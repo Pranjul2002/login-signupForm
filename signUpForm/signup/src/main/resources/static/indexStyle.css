@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+
+::placeholder {
+    position: absolute;
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signIn-wrapper{
+    background-color: rgb(252, 252, 252);
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
+    box-shadow: 2px 2px 10px #d6d6d6;
+    transition: box-shadow 0.5s;
+}
+
+.signIn-wrapper:hover{
+    box-shadow: 3px 3px 15px 8px #aaaaaa;
+}
+
+
+
+.signUp-wrapper{
+    background-color: rgb(252, 252, 252);
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    left: 55%;
+    top: 15%;
+    box-shadow: 2px 2px 10px #d6d6d6;
+    transition: box-shadow 0.5s;
+}
+
+.signUp-wrapper:hover{
+    box-shadow: 3px 3px 15px 8px #aaaaaa;
+}
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    font-size: 180%;
+}
+
+
+input{
+    width: 55%;
+}
+
+.email-input{
+    position: absolute;
+    height: 5%;
+    top: 18%;
+    left: 23%;
+}
+
+.password-input{
+    position: absolute;
+    height: 5%;
+    top: 35%;
+    left: 23%;
+}
+
+.create-password-input{
+    position: absolute;
+    height: 5%;
+    top: 29%;
+    left: 23%;
+}
+
+.confirm-password-input{
+    position: absolute;
+    height: 5%;
+    top: 42%;
+    left: 23%;
+}
+
+.submit-button{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    width: 22%;
+    height: 7%;
+    top: 52%;
+    left: 39%;
+    font-size: 120%;
+}
+
+.submit-button-with-google{
+    background-color: rgb(1, 111, 255);
+    position: absolute;
+    width: 62%;
+    height: 7%;
+    top: 68%;
+    left: 20%;
+    font-size: 120%;
+}
+
+.footer{
+    position: absolute;
+    top: 95%;
+    left: 46%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+}
